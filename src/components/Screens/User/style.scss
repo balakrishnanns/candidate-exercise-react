@@ -1,0 +1,39 @@
+thead {
+    white-space: nowrap;
+
+    th {
+        color: #612115;
+        background: white;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        padding: 14px 21px;
+        border-bottom: 1px solid #dddddf;
+        max-width: 300px;
+        text-align: center !important;
+    }
+
+    .minwidth {
+      min-width: 150px;
+    }
+}
+
+tbody {
+    border-top: none !important;
+
+    tr {
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    td {
+        padding: 15px 20px;
+        text-align: center;
+        color: #52575c;
+        font-size: 14px;
+        word-wrap: break-word;
+        max-width: 400px;
+    }
+}
+.userTitle{
+    font-size: 24px;
+}

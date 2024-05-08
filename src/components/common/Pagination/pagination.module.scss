@@ -1,0 +1,59 @@
+.paginationButtons {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    padding: 20px 0px 0px 0px;
+}
+
+.paginationButtons a {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    margin: 5px;
+    color: $black;
+}
+
+.paginationActive a {
+    border: 1px solid $tm-light-grey-ca;
+    background-color: $tm-primary;
+    text-decoration: none;
+    color: $white;
+}
+
+.previousButton a {
+    background: $white;
+    border: 1px solid $tm-light-grey-ca;
+    color: $black;
+    box-shadow: 0px 2px 4px rgba(216, 216, 216, 0.52);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.paginationBreak a {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.nextButton a {
+    background: $white;
+    border: 1px solid $tm-light-grey-ca;
+    color: $black;
+    box-shadow: 0px 2px 4px rgba(216, 216, 216, 0.52);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.disabledButton a {
+    background: $white;
+    border: none;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.pagination-Content {
+    display: flex;
+    justify-content: end;
+}

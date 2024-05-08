@@ -1,0 +1,4 @@
+// supabase config keys
+export const supabaseUrl = "https://kshxqoqhqqzoypcbosgs.supabase.co";
+export const supabaseAnonKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtzaHhxb3FocXF6b3lwY2Jvc2dzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTUwODgwNjAsImV4cCI6MjAzMDY2NDA2MH0.1jJ83Xpt7-AtZBan2ScrFJpiC1cAWrnFrjm5hW_TBiE";
